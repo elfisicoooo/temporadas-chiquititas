@@ -45,11 +45,3 @@ a:hover {
 .atual {
     color: rgb(66, 66, 65); /* Adiciona a cor cinza a links de páginas atuais */
 }
-
-#link-atual:hover {
-    cursor: not-allowed;
-}
-
-.atual {
-    pointer-events: none;
-}
