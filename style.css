@@ -1,0 +1,18 @@
+/* Fontes Ubuntu e Chiquifont */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@font-face {
+    font-family: Chiquifont;
+    src: url('assets/chiquifont.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+/* ------------------------- */
+
+body {
+    font-family: Ubuntu, sans-serif;
+}
+
+h1 {
+    font-family: Chiquifont, Arial, sans-serif;
+}
