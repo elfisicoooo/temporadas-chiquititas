@@ -37,6 +37,19 @@ a {
     text-decoration: none; /* Decoração dos links */
 }
 
+a:hover {
+    cursor: pointer; /* Altera a mãozinha */
+    color: rgb(62, 149, 255);
+}
+
 .atual {
-    color: rgb(66, 66, 65);
+    color: rgb(66, 66, 65); /* Adiciona a cor cinza a links de páginas atuais */
+}
+
+#link-atual:hover {
+    cursor: not-allowed;
+}
+
+.atual {
+    pointer-events: none;
 }
