@@ -9,13 +9,28 @@
 }
 /* ------------------------- */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Ubuntu, sans-serif; /* Fontes */
-    background-color: rgb(198, 219, 236); /* Cor de fundo */
+    background-color: rgb(212, 232, 248); /* Cor de fundo */
+
+    /* Alinhamentos */
+    min-height: 100vh;
+    margin: 1%;
+    padding: 1%;
+    /* ----------- */
 }
 
 h1 {
     font-family: Chiquifont, Arial, sans-serif; /* Fontes */
+}
+
+img {
+    width: 50%;
+    max-width: 250px;
 }
 
 a {
