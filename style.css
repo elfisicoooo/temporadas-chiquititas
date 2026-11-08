@@ -10,9 +10,13 @@
 /* ------------------------- */
 
 body {
-    font-family: Ubuntu, sans-serif;
+    font-family: Ubuntu, sans-serif; /* Fontes */
 }
 
 h1 {
-    font-family: Chiquifont, Arial, sans-serif;
+    font-family: Chiquifont, Arial, sans-serif; /* Fontes */
+}
+
+a {
+    text-decoration: none; /* Decoração dos links */
 }
