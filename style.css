@@ -81,11 +81,12 @@ footer a:hover {
 }
 
 .atual {
-    color: rgb(180, 198, 224); /* Adiciona a cor cinza a links de páginas atuais */
+    cursor: not-allowed;
 }
 
-button:hover {
-    background-color: antiquewhite;
+.atual a {
+    color: rgb(180, 198, 224); /* Adiciona a cor cinza a links de páginas atuais */
+    pointer-events: none;
 }
 
 #redirec {
