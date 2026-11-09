@@ -28,22 +28,27 @@ body {
 header {
     background-color: rgb(255, 255, 255);
     color: rgb(28, 51, 84);
+    border-top: solid;
+    border-right: solid;
 }
 
 main {
     background-color: rgb(229, 237, 246);
     color: rgb(28, 51, 84);
+    border-right: solid;
 }
 
 footer {
     background-color: rgb(90, 137, 194);
     color: rgb(255, 255, 255);
+    border-right: solid;
+    border-bottom: solid;
+    border-color: rgb(28, 51, 84);;
 }
 
 header, main, footer {
     padding: 2%;
     border-radius: 10px;
-    border-style: 2px solid;
 }
 
 h1 {
