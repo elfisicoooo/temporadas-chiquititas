@@ -12,7 +12,19 @@
     </header>
 
     <main>
+        <p>Observação: o formulário a seguir é demonstrativo, não envia respostas por email e nem salva elas em um sistema. Use dados fictícios.</p>
+        <form action="contact.html" method="get">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" required> <br>
 
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email aqui" required> <br>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" rows="6" placeholder="Digite sua mensagem aqui..." required></textarea> <br>
+
+            <button type="submit">Enviar</button>
+        </form>
     </main>
 
     <footer>

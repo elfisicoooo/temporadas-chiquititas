@@ -16,12 +16,34 @@
 body {
     font-family: Ubuntu, sans-serif; /* Fontes */
     background-color: rgb(212, 232, 248); /* Cor de fundo */
+    color: rgb(28, 51, 84);
 
     /* Alinhamentos */
     min-height: 100vh;
     margin: 1%;
     padding: 1%;
     /* ----------- */
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(28, 51, 84);
+}
+
+main {
+    background-color: rgb(229, 237, 246);
+    color: rgb(28, 51, 84);
+}
+
+footer {
+    background-color: rgb(90, 137, 194);
+    color: rgb(255, 255, 255);
+}
+
+header, main, footer {
+    padding: 2%;
+    border-radius: 10px;
+    border-style: 2px solid;
 }
 
 h1 {
@@ -31,17 +53,29 @@ h1 {
 img {
     width: 50%;
     max-width: 250px;
+    border-radius: 5px;
 }
 
-a {
+main a {
     text-decoration: none; /* Decoração dos links */
+    color: rgb(0, 102, 204);
 }
 
-a:hover {
+main a:hover {
+    color: rgb(0, 76, 153);
+}
+
+footer a {
+    text-decoration: none; /* Decoração dos links */
+    color: rgb(255, 215, 0);
+}
+
+footer a:hover {
     cursor: pointer; /* Altera a mãozinha */
-    color: rgb(62, 149, 255);
+    color: rgb(255,255,255);
 }
 
 .atual {
-    color: rgb(66, 66, 65); /* Adiciona a cor cinza a links de páginas atuais */
+    color: rgb(180, 198, 224); /* Adiciona a cor cinza a links de páginas atuais */
 }
+
