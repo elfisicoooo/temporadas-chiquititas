@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: Chiquifont;
-    src: url('assets/chiquifont.ttf') format('truetype');
+    src: url('../assets/chiquifont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
